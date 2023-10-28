@@ -1,0 +1,88 @@
+/*@media for header on mobile screens*/
+@media only screen and (max-width: 600px) {
+  body {
+    height: auto; /*fixedd hieght not 0good  :( تعبت*/
+  }
+  header {
+    flex-direction: column;
+    font-size: 15px;
+  }
+  /*.navi class be in the center for most mobule phone*/
+
+  .navi ol {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+body {
+  margin: 0;
+  position: relative;
+
+  /* margin-top: 100px;
+  padding-bottom: 100px;*/
+  /* background: linear-gradient(rgb(43, 186, 243),gold, rgb(161, 248, 48));*/
+}
+
+header {
+  background-color: #aaff22;
+  position: fixed;
+  display: flex;
+  z-index: 10000; /*without, other parts of project gets on top of the header*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navi ol {
+  list-style: none;
+}
+.navi ol li {
+  display: inline-block;
+}
+
+.navi a {
+  color: #000000;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.navi a:hover {
+  color: #fa8e00;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(61, 60, 60);
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+.footer_talk {
+  margin: 10px;
+}
+.footerFooter {
+  background-color: rgb(3, 3, 3);
+  position: absolute;
+  width: 100%;
+}
+.medialogo img {
+  width: 30px;
+}
+.medialogo a {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.medialogo a img:hover {
+  /*the logo become gray on hover*/
+  filter: grayscale(60%);
+}
