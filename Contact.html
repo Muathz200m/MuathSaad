@@ -1,0 +1,102 @@
+<!--Muath 2140014-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="resume Contact form" />
+    <meta name="description" content="Contact me form" />
+    <meta name="author" content="Muath Saad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact_Info</title>
+    <link rel="icon" href="image/logo.jpg" />
+    <!--icon tag-->
+    <link rel="stylesheet" href="css/Contact.css" />
+    <link rel="stylesheet" href="css/HF_pages.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" id="logo"
+        ><img src="image/logo.jpg" alt="logo" width="50"
+      /></a>
+      <nav class="navi">
+        <ol>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="Education.html">Education</a></li>
+          <li><a href="Personal_info.html">About me</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main class="ContactMain">
+      <form method="post" class="contact_form">
+        <h2>Contact me form:</h2>
+        <p id="full_Name">
+          Full Name:
+          <input
+            type="text"
+            pattern="[A-Za-z ]{2,35}"
+            title="Only letters, and it must be from 2-35"
+          />
+        </p>
+        <p id="email">
+          Email: <input type="text" title="please put your email correctly" />
+        </p>
+        <p id="phone">
+          Phone Number:
+          <input
+            type="text"
+            pattern="[0-9]{10}"
+            title="You must enter only numbers and it has to be 10 digits"
+          />
+        </p>
+
+        <p>
+          Comments:<br />
+          <textarea name="comments" rows="5" cols="40"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Clear" />
+        </p>
+      </form>
+      <h5>The buttons will not do anyyhing.</h5>
+      <br /><br />
+      <br />
+    </main>
+    <footer class="footer">
+      <!--https://www.freepik.com/ the icons-->
+      <div class="footer_talk">
+        This website is for personal use only, I will try to update it as much
+        as I can. Thank you.
+      </div>
+      <div class="medialogo">
+        <p>
+          <a href="https://github.com/Muathz200m"
+            ><img src="image/Media_image/Github.png" alt="Github img"
+          /></a>
+
+          <a href="https://wa.me/966568606844"
+            ><img
+              src="image/Media_image/whatsapp_4494494.png"
+              alt="Whatsapp img"
+          /></a>
+
+          <a href="https://twitter.com/Mz2A2"
+            ><img src="image/Media_image/twitter_4494477.png" alt="twitter img"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/muath-saad-alalyani-a4934a298/"
+            ><img
+              src="image/Media_image/linkedin_3670045.png"
+              alt="linkedin img"
+          /></a>
+        </p>
+      </div>
+      <div class="footerFooter">
+        <p>Muath Saad</p>
+      </div>
+    </footer>
+  </body>
+</html>
